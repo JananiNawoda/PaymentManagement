@@ -113,6 +113,7 @@ const generatePDF = tickets => {
       }}/><br></br>
       <button type="text" class="btn btn-secondary btn-sm"> Payment Count : {Payments.length} </button>
    <br></br>
+   <div className='title'><b>Hospital Payment List</b></div>
    <br></br>
    <table class="table table-bordered">
         <table class="table table-hover" >

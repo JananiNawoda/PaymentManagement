@@ -96,7 +96,7 @@ export default function AllBill() {
                 <br></br>
                 <br></br>
                 <br></br>
-
+                
 
             </div>
             <br></br>
@@ -116,8 +116,9 @@ export default function AllBill() {
                         onChange={(e) => {
                             setsearchTerm(e.target.value);
                         }} /><br></br>
-                        <button type="text" class="btn btn-secondary btn-sm"> Bill Count : {Bills.length} </button>
+                        <button type="text" class="btn btn-secondary btn-sm"> Supplier Count : {Bills.length} </button>
                     <br></br>
+                    <div className='title'><b>Hospital Bill List</b></div>
                     <br></br>
                     <table class="table table-bordered">
                         <table class="table table-hover" >

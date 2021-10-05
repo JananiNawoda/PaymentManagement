@@ -188,7 +188,7 @@ return (
 
     <div className='body'>
     <div className='appointment-container'>
-        <div className='title'>Hospital Bill</div>
+        <div className='title'>Update Hospital Bill</div>
         <div className='container'>
         <form onSubmit={sendData}>
              <div className='user-details'>

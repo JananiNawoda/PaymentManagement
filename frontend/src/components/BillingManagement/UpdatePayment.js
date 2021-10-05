@@ -75,7 +75,7 @@ return (
 
     <div className='body'>
     <div className='appointment-container'>
-        <div className='title'>Hospital Payment Invoice</div>
+        <div className='title'> Update Hospital Payment Invoice</div>
         <div className='container'>
         <form onSubmit={sendData}>
              <div className='user-details'>
