@@ -12,7 +12,7 @@ export default function Payments() {
         <div className='card-group-1'>
             <PaymentCard imgURL={img1} title='Make The Bill' text={"While the challenges\n are great, \n So are the opportunities"} URLpath={"/BillCRUD"}/>
             <PaymentCard imgURL={img2} title='Make Invoice' text={"Financial Ruin from\n medical bills is \n almost exclusively an \n american disease"} URLpath={"/bills"}/>
-            <PaymentCard imgURL={img5} title='Paymnet Feedback' text={"There is always space for improvement\nno matter how long\nit takes"} URLpath={"#"}/>
+            <PaymentCard imgURL={img5} title='Paymnet Feedback' text={"There is always space for improvement\nno matter how long\nit takes"} URLpath={"/feedback"}/>
         </div>
         </>
     )

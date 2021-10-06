@@ -6,6 +6,7 @@ import Products from './components/pages/Products';
 import ContactUs from './components/pages/ContactUs';
 import SignUp from './components/pages/Signup';
 import Home from './components/pages/Home';
+import Feedback from './components/pages/Feedback';
 
 //Main Component
 import Appointment from './components/pages/Appointment';
@@ -45,9 +46,10 @@ function App() {
           <Route path='/Appointment' exact component={Appointment}></Route>
           <Route path='/products' exact component={Products}></Route>
           <Route path='/contact-us' exact component={ContactUs}></Route>
-          <Route path='/sign-up' exact component={SignUp}>
+          <Route path='/sign-up' exact component={SignUp}> </Route>
+            <Route path='/feedback' exact component={Feedback}></Route>
 
-          </Route>
+         
           <Route path='/make-appointment' exact component={MakeAppointment}></Route>
           <Route path='/booking-history' exact component={BookingHistory}></Route>
           <Route path='/treatment-history' exact component={TreatmentHistory}></Route>
